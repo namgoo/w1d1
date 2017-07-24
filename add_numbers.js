@@ -17,8 +17,7 @@ var number2 = parseInt(args[1]);
 // var sum = number1 + number2;
 // console.log(sum);
 
-if (Number.isNaN(number1)
-  || Number.isNaN(number2)) {
+if (Number.isNaN(number1) || Number.isNaN(number2)) {
   console.log("Input was not a number.")
 } else {
   var result = 0;
