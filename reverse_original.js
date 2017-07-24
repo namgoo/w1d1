@@ -27,7 +27,7 @@ for (var i = 0; i < original.length; i = i + 1) {
   for (var j = (original[i].length - 1); j > -1; j--) {
     reversed = reversed + original[i][j]
   }
-  reversed = reversed + '\n'
+  reversed = reversed + "\n"
 }
 
 console.log(reversed)
@@ -36,12 +36,12 @@ console.log(reversed)
 
 
 
-function reverse(word) {
-    newWord = ""
-    newWord = newWord + word[letterIndex]
-    console.log(newWord)
-    return newWord
-}
+// function reverse(word) {
+//     newWord = ""
+//     newWord = newWord + word[letterIndex]
+//     console.log(newWord)
+//     return newWord
+// }
 
 
 
